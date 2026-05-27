@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-LABEL org.opencontainers.image.source=https://github.com/Arpit1033/Django-Blog-CMS.git
+LABEL org.opencontainers.image.source=https://github.com/Arpit1033/Django-Blog-CMS
 
 WORKDIR /home/app
 
