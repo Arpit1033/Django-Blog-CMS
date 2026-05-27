@@ -1,0 +1,7 @@
+services:
+  django-blog-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django_project/db.sqlite3:/home/app/django_project/db.sqlite3
